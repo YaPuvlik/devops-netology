@@ -1,20 +1,25 @@
-# Local .terraform directories
-**/.terraform/*
+*.dll
+*.exe
+.DS_Store
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+*.iml
 
-# .tfstate files
-*.tfstate
-*.tfstate.*
+website/vendor
+vendor/
 
-# Ctashe log files
-crash.log
-
-*.tfvars
-
-override.tf
-override.tf.json
-*_override.tf
-*override.tf.json
-
-
-.terraformrc
-terraform.rc
+# Coverage
+coverage.txt
